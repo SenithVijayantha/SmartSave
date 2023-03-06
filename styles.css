@@ -1,0 +1,164 @@
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center	;
+	background: rgb(190, 213, 250);
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+#main-div{
+	width: 900px;
+/*	height:500px;*/
+	display: flex;
+	/*justify-content: center;
+	align-items: center;*/
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 10px;
+}
+
+img{
+	width:450px;
+	height: auto;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+form{
+	width: 450px;
+/*	height: auto;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#button-container{
+	display: flex;
+	padding: 5px;
+	background-color: lightgray;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sign{
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+
+}
+
+#sign-in{
+	margin-left: 10px;
+	height: 45px;
+}
+
+#sign-out{
+	margin-right: 10px;
+	height: 45px;
+}
+
+.main-buttons{
+	width: 330px;
+	border-radius: 10px;
+	height: 50px;
+	margin-top: 20px;	
+}
+
+#title{
+	font-size: 25px;
+	font-weight: lighter;
+	margin-top: 40px;
+}
+
+#welcome-title{
+	margin-top: 80px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#welcome-text{
+	font-size: 14px;
+	margin-top: 10px;
+	color: rgb(140, 140, 140);
+}
+
+input, button{
+	border:1px solid lightgray;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#email{
+	text-align: center;
+}
+
+#divider-section{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer{
+	text-align: center;
+	font-size: 14px;
+	color: rgb(140, 140, 140);
+}
+
+#continue-button{
+	width: 350px;
+	background-color: rgb(38, 113, 235);
+	color: white;
+	font-weight: 500;
+}
+
+.divider{
+	width: 100px;
+	height: 2px;
+	background-color: 	rgb(190, 190, 190);
+}
+
+#continue-text{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: 	rgb(160, 160, 160);
+	cursor: pointer;
+}
+
+#google-icon{
+	width: 20px;
+	height: auto;
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid rgb(160, 160, 160);
+	cursor: pointer;
+}
+
+#apple-icon{
+	width: 20px;
+	height: auto;
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid rgb(160, 160, 160);
+	cursor: pointer;
+}
+
+#facebook-icon{
+	width: 20px;
+	height: auto;
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid rgb(160, 160, 160);
+	cursor: pointer;
+}
+
+#icons{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	gap: 20px;
+}
